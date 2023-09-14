@@ -1,0 +1,15 @@
+@media print {
+    .screen_only{
+        display: none;
+    }   
+}
+@media (max-width: 640px){
+    body{
+        background-color: azure;
+    }
+}
+@media (min-width: 641px) and (max-width: 768px){
+    body{
+        background-color: aliceblue;
+    }
+}
