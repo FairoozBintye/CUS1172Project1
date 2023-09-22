@@ -1,14 +1,20 @@
-@media print {
-    .screen_only{
-        display: none;
-    }   
-}
+
 @media (max-width: 640px){
     body{
-        background-color: azure;
+        background-color: white;
+    }
+    h1{
+        background-color: rgb(253, 211, 174);
+    }
+    .title{
+        background-color: blue;
     }
 }
 @media (min-width: 641px) and (max-width: 768px){
     body{
         background-color: aliceblue;
-    }  }
+    }
+    h1{
+        background-color: pink;
+}
+}
