@@ -1,5 +1,5 @@
     h1{
-        background-color: rgb(237, 66, 66);
+        background-color: palevioletred;
         text-align: center;
         color: whitesmoke;
     }
@@ -14,21 +14,19 @@
     font-size: large;
     color: brown;
 }
-#hobbies{
-    color: brown;
-}
+
 ul{
     list-style-type: square;
   }
 .custom_font{
 font-family:Verdana, Geneva, Tahoma, sans-serif;
-font-size: 13px;
+font-size: 14px;
 font-weight: bold;
 }
 .custom_border{
     border-width: 5px;
     border-style: solid;
-    border-color: black;
+    border-color: brown;
 }
 input[type=text], select {
     width: 100%;
@@ -61,11 +59,10 @@ input[type=text], select {
   table{
     border-width: 1px;
     border-style: solid;
-border-collapse: collapse;
 width: 50%;
 }
 table th, table td{
-    border: 1px solid black;
+  border: 1px solid black;
     padding: 5px;
     text-align: center;
 }
